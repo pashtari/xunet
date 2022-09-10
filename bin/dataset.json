@@ -1,0 +1,338 @@
+{
+	"name": "MSSEG-2",
+	"description": "Multiple Sclerosis new lesions detection and segmentation.",
+	"reference": "https://portal.fli-iam.irisa.fr/msseg-2/",
+	"licence": " ",
+	"release": "15/03/2021",
+	"tensorImageSize": "3D",
+	"modality": {
+		"0": "FLAIR"
+	},
+	"labels": {
+		"0": "background",
+		"1": "lesion"
+	},
+	"numTraining": 40,
+	"training": [
+		{
+			"id": "013",
+			"image": [
+				"./training/013/flair_time01_on_middle_space.nii",
+				"./training/013/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/013/ground_truth.nii"
+		},
+		{
+			"id": "015",
+			"image": [
+				"./training/015/flair_time01_on_middle_space.nii",
+				"./training/015/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/015/ground_truth.nii"
+		},
+		{
+			"id": "016",
+			"image": [
+				"./training/016/flair_time01_on_middle_space.nii",
+				"./training/016/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/016/ground_truth.nii"
+		},
+		{
+			"id": "018",
+			"image": [
+				"./training/018/flair_time01_on_middle_space.nii",
+				"./training/018/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/018/ground_truth.nii"
+		},
+		{
+			"id": "019",
+			"image": [
+				"./training/019/flair_time01_on_middle_space.nii",
+				"./training/019/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/019/ground_truth.nii"
+		},
+		{
+			"id": "020",
+			"image": [
+				"./training/020/flair_time01_on_middle_space.nii",
+				"./training/020/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/020/ground_truth.nii"
+		},
+		{
+			"id": "021",
+			"image": [
+				"./training/021/flair_time01_on_middle_space.nii",
+				"./training/021/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/021/ground_truth.nii"
+		},
+		{
+			"id": "024",
+			"image": [
+				"./training/024/flair_time01_on_middle_space.nii",
+				"./training/024/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/024/ground_truth.nii"
+		},
+		{
+			"id": "026",
+			"image": [
+				"./training/026/flair_time01_on_middle_space.nii",
+				"./training/026/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/026/ground_truth.nii"
+		},
+		{
+			"id": "027",
+			"image": [
+				"./training/027/flair_time01_on_middle_space.nii",
+				"./training/027/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/027/ground_truth.nii"
+		},
+		{
+			"id": "029",
+			"image": [
+				"./training/029/flair_time01_on_middle_space.nii",
+				"./training/029/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/029/ground_truth.nii"
+		},
+		{
+			"id": "030",
+			"image": [
+				"./training/030/flair_time01_on_middle_space.nii",
+				"./training/030/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/030/ground_truth.nii"
+		},
+		{
+			"id": "032",
+			"image": [
+				"./training/032/flair_time01_on_middle_space.nii",
+				"./training/032/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/032/ground_truth.nii"
+		},
+		{
+			"id": "035",
+			"image": [
+				"./training/035/flair_time01_on_middle_space.nii",
+				"./training/035/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/035/ground_truth.nii"
+		},
+		{
+			"id": "037",
+			"image": [
+				"./training/037/flair_time01_on_middle_space.nii",
+				"./training/037/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/037/ground_truth.nii"
+		},
+		{
+			"id": "039",
+			"image": [
+				"./training/039/flair_time01_on_middle_space.nii",
+				"./training/039/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/039/ground_truth.nii"
+		},
+		{
+			"id": "043",
+			"image": [
+				"./training/043/flair_time01_on_middle_space.nii",
+				"./training/043/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/043/ground_truth.nii"
+		},
+		{
+			"id": "047",
+			"image": [
+				"./training/047/flair_time01_on_middle_space.nii",
+				"./training/047/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/047/ground_truth.nii"
+		},
+		{
+			"id": "048",
+			"image": [
+				"./training/048/flair_time01_on_middle_space.nii",
+				"./training/048/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/048/ground_truth.nii"
+		},
+		{
+			"id": "049",
+			"image": [
+				"./training/049/flair_time01_on_middle_space.nii",
+				"./training/049/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/049/ground_truth.nii"
+		},
+		{
+			"id": "051",
+			"image": [
+				"./training/051/flair_time01_on_middle_space.nii",
+				"./training/051/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/051/ground_truth.nii"
+		},
+		{
+			"id": "052",
+			"image": [
+				"./training/052/flair_time01_on_middle_space.nii",
+				"./training/052/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/052/ground_truth.nii"
+		},
+		{
+			"id": "057",
+			"image": [
+				"./training/057/flair_time01_on_middle_space.nii",
+				"./training/057/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/057/ground_truth.nii"
+		},
+		{
+			"id": "061",
+			"image": [
+				"./training/061/flair_time01_on_middle_space.nii",
+				"./training/061/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/061/ground_truth.nii"
+		},
+		{
+			"id": "068",
+			"image": [
+				"./training/068/flair_time01_on_middle_space.nii",
+				"./training/068/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/068/ground_truth.nii"
+		},
+		{
+			"id": "069",
+			"image": [
+				"./training/069/flair_time01_on_middle_space.nii",
+				"./training/069/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/069/ground_truth.nii"
+		},
+		{
+			"id": "070",
+			"image": [
+				"./training/070/flair_time01_on_middle_space.nii",
+				"./training/070/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/070/ground_truth.nii"
+		},
+		{
+			"id": "074",
+			"image": [
+				"./training/074/flair_time01_on_middle_space.nii",
+				"./training/074/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/074/ground_truth.nii"
+		},
+		{
+			"id": "077",
+			"image": [
+				"./training/077/flair_time01_on_middle_space.nii",
+				"./training/077/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/077/ground_truth.nii"
+		},
+		{
+			"id": "083",
+			"image": [
+				"./training/083/flair_time01_on_middle_space.nii",
+				"./training/083/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/083/ground_truth.nii"
+		},
+		{
+			"id": "084",
+			"image": [
+				"./training/084/flair_time01_on_middle_space.nii",
+				"./training/084/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/084/ground_truth.nii"
+		},
+		{
+			"id": "088",
+			"image": [
+				"./training/088/flair_time01_on_middle_space.nii",
+				"./training/088/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/088/ground_truth.nii"
+		},
+		{
+			"id": "089",
+			"image": [
+				"./training/089/flair_time01_on_middle_space.nii",
+				"./training/089/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/089/ground_truth.nii"
+		},
+		{
+			"id": "090",
+			"image": [
+				"./training/090/flair_time01_on_middle_space.nii",
+				"./training/090/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/090/ground_truth.nii"
+		},
+		{
+			"id": "091",
+			"image": [
+				"./training/091/flair_time01_on_middle_space.nii",
+				"./training/091/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/091/ground_truth.nii"
+		},
+		{
+			"id": "094",
+			"image": [
+				"./training/094/flair_time01_on_middle_space.nii",
+				"./training/094/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/094/ground_truth.nii"
+		},
+		{
+			"id": "095",
+			"image": [
+				"./training/095/flair_time01_on_middle_space.nii",
+				"./training/095/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/095/ground_truth.nii"
+		},
+		{
+			"id": "096",
+			"image": [
+				"./training/096/flair_time01_on_middle_space.nii",
+				"./training/096/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/096/ground_truth.nii"
+		},
+		{
+			"id": "099",
+			"image": [
+				"./training/099/flair_time01_on_middle_space.nii",
+				"./training/099/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/099/ground_truth.nii"
+		},
+		{
+			"id": "100",
+			"image": [
+				"./training/100/flair_time01_on_middle_space.nii",
+				"./training/100/flair_time02_on_middle_space.nii"
+			],
+			"label": "./training/100/ground_truth.nii"
+		}
+	]
+}
