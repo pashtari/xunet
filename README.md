@@ -1,7 +1,7 @@
-# xunet
+<img src=figures/logo.png width="400">
 
 ## Description
-xU-Net is a simple modular library to flexibly generate U-Net architectures for medical image segmentation. This repo also includes top-performing solutions to the [MSSEG-2 MICCAI challenge](https://portal.fli-iam.irisa.fr/msseg-2/).
+x-U-Net is a simple modular library to flexibly generate U-Net architectures for medical image segmentation. This repo also includes top-performing solutions to the [MSSEG-2 MICCAI challenge](https://portal.fli-iam.irisa.fr/msseg-2/).
 
 ![teaser](figures/overall_architecture.png)
 
@@ -37,7 +37,7 @@ MSSEG-2
 
 
 ## Training
-To train a model from the terminal:
+To train a model from the terminal, run
 
 ```bash
 cd ./bin
@@ -131,7 +131,7 @@ $ python predict_msseg2.py -c ${config.yaml} -t1 ${flair1} -t2 ${flair2} -o ${ou
 
 ```bash
 cd ./bin
-python predict_msseg2.py --config config_msseg2_ensemble_preunet.yaml -t1 ${flair1} -t2 ${flair2} -o ${output}
+python predict_msseg2.py --c config_msseg2_ensemble_preunet.yaml -t1 ${flair1} -t2 ${flair2} -o ${output}
 ```
 
 
